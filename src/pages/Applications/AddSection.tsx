@@ -16,11 +16,8 @@ import {
 } from "@mui/material";
 
 import { useMutation } from "@apollo/client";
-import SessionContext from "../../Context/SessionData/SessionContext";
 import { insuranceData } from "../../json-data/selectInsurance";
 // import QuestionMap from "../Applications/QuestionMap";
-import { useNavigate } from "react-router-dom";
-import { useContext } from "react";
 
 import { saveSectionMutation } from "../../GraphQL/Mutations";
 
