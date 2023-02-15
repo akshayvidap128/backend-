@@ -25,7 +25,7 @@ const link = from([
   errorLink,
   // new HttpLink({ uri: "http://127.0.0.1:8000/graphql" }),
   new HttpLink({
-    uri: " /graphql",
+    uri: "http://40.76.233.70/graphql",
     headers: {
       "allow-access-control": "*",
     },
